@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  transition: background-color 0.3s;
+}
+
+.app.light {
+  background-color: #ffffff;
+}
+
+.app.dark {
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Form Container Styles */
+.form-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  margin-top: 0;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.form-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Blog Post Styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-blog {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.create-blog input,
+.create-blog textarea,
+.create-blog button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.create-blog input {
+  box-sizing: border-box;
+}
+
+.create-blog textarea {
+  height: 150px;
+  box-sizing: border-box;
+}
+
+.create-blog button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.create-blog button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Post Detail Styles */
+.post-detail {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.post-detail h2 {
+  margin-top: 0;
+}
+
+.post-detail button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post-detail button:hover {
+  background-color: #0056b3;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+/* Theme Selector Styles */
+.themes-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.themes-container h2 {
+  margin-top: 0;
+}
+
+.themes-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.themes-container button:hover {
+  background-color: #0056b3;
+}
+
+/* User and Settings Container Styles */
+.users-container,
+.settings-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.users-container h2,
+.settings-container h2 {
+  margin-top: 0;
+}
+
+.users-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.users-container ul li {
+  margin-bottom: 10px;
+}
+
+.settings-container .form-container {
+  margin-bottom: 20px;
+}
